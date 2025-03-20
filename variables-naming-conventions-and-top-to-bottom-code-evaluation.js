@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+//previous code used bad naming convention
+let firstName = "Alice";
+let amountPurchased = 5 ;
+let itemsPurchased = " Magic Cards "
+let totalCost = 20 ;
+let purchaseDate = " Today"
+let finished = firstName + " bought " + amountPurchased + itemsPurchased + "for $" + totalCost + purchaseDate + ".";
+
+console.log(finished);
